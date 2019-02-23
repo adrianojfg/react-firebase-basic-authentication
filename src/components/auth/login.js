@@ -66,7 +66,7 @@ class Login extends React.Component {
         const { user, isLoggedIn, isLoading, forgotPassword } = this.state;
 
         if (isLoggedIn)
-            return <Redirect to={{ pathname: "/subscriptions", user: user }} />
+            return <Redirect to={{ pathname: "/home", user: user }} />
 
         return (
             <ValidatorForm
