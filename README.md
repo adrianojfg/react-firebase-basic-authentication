@@ -4,8 +4,10 @@ This is a react demo app that implements the basic (email/password) firabase aut
 
 ## Usage
 
+Run the following commands in terminal:
 ```
 git clone git@github.com:adrianojfg/react-firebase-basic-authentication.git
+cd react-firebase-basic-authentication
 npm install
 npm start
 ```
